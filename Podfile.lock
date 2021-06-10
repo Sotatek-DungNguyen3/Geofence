@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (5.0.0):
+    - GoogleMaps/Maps (= 5.0.0)
+  - GoogleMaps/Base (5.0.0)
+  - GoogleMaps/Maps (5.0.0):
+    - GoogleMaps/Base
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  GoogleMaps: 600e5e69bdf7f4ed7cac4d6aa96c7ec08a5aa254
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: 4cda8e5708cadb759664c1ec4abb8f46a753eaf0
+
+COCOAPODS: 1.10.1
