@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,12 @@
 		D42F758A2671CBC300AFAB1B /* GeofenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75892671CBC300AFAB1B /* GeofenceTests.swift */; };
 		D42F75952671CBC300AFAB1B /* GeofenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75942671CBC300AFAB1B /* GeofenceUITests.swift */; };
 		D42F75AC267201C600AFAB1B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75AB267201C600AFAB1B /* BaseView.swift */; };
-		D42F75AF2672025B00AFAB1B /* MainNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75AE2672025B00AFAB1B /* MainNC.swift */; };
+		D42F75B12672174600AFAB1B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75B02672174600AFAB1B /* Constants.swift */; };
+		D42F75B4267218B100AFAB1B /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42F75B3267218B100AFAB1B /* MapView.xib */; };
+		D42F75B6267218C300AFAB1B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75B5267218C300AFAB1B /* MapView.swift */; };
+		D42F75BB26721A8F00AFAB1B /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75B926721A8F00AFAB1B /* MapVC.swift */; };
+		D42F75BC26721A8F00AFAB1B /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42F75BA26721A8F00AFAB1B /* MapVC.xib */; };
+		D45511352678A90F00CE0C8F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45511342678A90F00CE0C8F /* UIViewControllerExtension.swift */; };
 		E972064F253B00203486ADBB /* Pods_Geofence_GeofenceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323A6C2307E743298A7A56BE /* Pods_Geofence_GeofenceUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +66,12 @@
 		D42F75942671CBC300AFAB1B /* GeofenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceUITests.swift; sourceTree = "<group>"; };
 		D42F75962671CBC300AFAB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42F75AB267201C600AFAB1B /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		D42F75AE2672025B00AFAB1B /* MainNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNC.swift; sourceTree = "<group>"; };
+		D42F75B02672174600AFAB1B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D42F75B3267218B100AFAB1B /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		D42F75B5267218C300AFAB1B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D42F75B926721A8F00AFAB1B /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		D42F75BA26721A8F00AFAB1B /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		D45511342678A90F00CE0C8F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		E974B6E5DE44CDF6B646560B /* Pods_GeofenceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeofenceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,6 +151,7 @@
 		D42F75712671CBC000AFAB1B /* Geofence */ = {
 			isa = PBXGroup;
 			children = (
+				D42F75802671CBC300AFAB1B /* Info.plist */,
 				D42F75A22672011400AFAB1B /* Application */,
 				D42F75A32672012100AFAB1B /* Common */,
 				D42F75A42672012600AFAB1B /* Extension */,
@@ -174,7 +185,6 @@
 		D42F75A22672011400AFAB1B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				D42F75802671CBC300AFAB1B /* Info.plist */,
 				D42F75722671CBC000AFAB1B /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -183,6 +193,7 @@
 		D42F75A32672012100AFAB1B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				D42F75B02672174600AFAB1B /* Constants.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -190,6 +201,7 @@
 		D42F75A42672012600AFAB1B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D45511342678A90F00CE0C8F /* UIViewControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -204,6 +216,7 @@
 		D42F75A62672013A00AFAB1B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D42F75B2267218A600AFAB1B /* MapView */,
 				D42F75AB267201C600AFAB1B /* BaseView.swift */,
 			);
 			path = Views;
@@ -212,8 +225,8 @@
 		D42F75A72672014300AFAB1B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D42F75B726721A6F00AFAB1B /* MapVC */,
 				D42F75762671CBC000AFAB1B /* BaseViewController.swift */,
-				D42F75AE2672025B00AFAB1B /* MainNC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -225,6 +238,24 @@
 				D42F75782671CBC000AFAB1B /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D42F75B2267218A600AFAB1B /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				D42F75B5267218C300AFAB1B /* MapView.swift */,
+				D42F75B3267218B100AFAB1B /* MapView.xib */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		D42F75B726721A6F00AFAB1B /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				D42F75B926721A8F00AFAB1B /* MapVC.swift */,
+				D42F75BA26721A8F00AFAB1B /* MapVC.xib */,
+			);
+			path = MapVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +270,7 @@
 				D42F756C2671CBC000AFAB1B /* Frameworks */,
 				D42F756D2671CBC000AFAB1B /* Resources */,
 				A764F1ED1A5DE7D763D9234B /* [CP] Copy Pods Resources */,
+				2942FA1A14D4CF6CFAD2BD28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +309,7 @@
 				D42F758D2671CBC300AFAB1B /* Frameworks */,
 				D42F758E2671CBC300AFAB1B /* Resources */,
 				7046802C52DE7AFF5C28A928 /* [CP] Copy Pods Resources */,
+				C3077848D91B011813FA2C6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,7 +369,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42F757F2671CBC300AFAB1B /* LaunchScreen.storyboard in Resources */,
+				D42F75B4267218B100AFAB1B /* MapView.xib in Resources */,
 				D42F757C2671CBC200AFAB1B /* Assets.xcassets in Resources */,
+				D42F75BC26721A8F00AFAB1B /* MapVC.xib in Resources */,
 				D42F757A2671CBC000AFAB1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +393,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2942FA1A14D4CF6CFAD2BD28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geofence/Pods-Geofence-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geofence/Pods-Geofence-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Geofence/Pods-Geofence-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5DB219743B7899FFB7E80417 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,6 +488,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Geofence/Pods-Geofence-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C3077848D91B011813FA2C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geofence-GeofenceUITests/Pods-Geofence-GeofenceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geofence-GeofenceUITests/Pods-Geofence-GeofenceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Geofence-GeofenceUITests/Pods-Geofence-GeofenceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C46038899EE3631EA94B5314 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,9 +534,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42F75B12672174600AFAB1B /* Constants.swift in Sources */,
+				D42F75B6267218C300AFAB1B /* MapView.swift in Sources */,
 				D42F75AC267201C600AFAB1B /* BaseView.swift in Sources */,
-				D42F75AF2672025B00AFAB1B /* MainNC.swift in Sources */,
+				D42F75BB26721A8F00AFAB1B /* MapVC.swift in Sources */,
 				D42F75772671CBC000AFAB1B /* BaseViewController.swift in Sources */,
+				D45511352678A90F00CE0C8F /* UIViewControllerExtension.swift in Sources */,
 				D42F75732671CBC000AFAB1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,8 @@ target 'Geofence' do
   use_frameworks!
   pod 'GoogleMaps'
   pod 'SwiftLint'
+  pod 'GooglePlaces'
+  pod 'Toast-Swift'
   # Pods for Geofence
 
   target 'GeofenceTests' do

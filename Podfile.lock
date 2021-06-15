@@ -4,21 +4,29 @@ PODS:
   - GoogleMaps/Base (5.0.0)
   - GoogleMaps/Maps (5.0.0):
     - GoogleMaps/Base
+  - GooglePlaces (5.0.0)
   - SwiftLint (0.43.1)
+  - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
   - GoogleMaps
+  - GooglePlaces
   - SwiftLint
+  - Toast-Swift
 
 SPEC REPOS:
   trunk:
     - GoogleMaps
+    - GooglePlaces
     - SwiftLint
+    - Toast-Swift
 
 SPEC CHECKSUMS:
   GoogleMaps: 600e5e69bdf7f4ed7cac4d6aa96c7ec08a5aa254
+  GooglePlaces: 5d87ca13ed98b7a937e0d8bc7026f718c7263271
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 4cda8e5708cadb759664c1ec4abb8f46a753eaf0
+PODFILE CHECKSUM: 590c4cb73fec456685cc8f13edc1bcc1a4727d41
 
 COCOAPODS: 1.10.1
