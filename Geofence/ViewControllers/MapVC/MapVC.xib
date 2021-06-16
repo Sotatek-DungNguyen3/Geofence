@@ -24,16 +24,21 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mV-xe-csb">
-                    <rect key="frame" x="314" y="762" width="50" height="50"/>
-                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mV-xe-csb">
+                    <rect key="frame" x="354" y="797" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="50" id="GYH-4l-uDR"/>
                         <constraint firstAttribute="height" constant="50" id="zfA-ad-8J7"/>
                     </constraints>
-                    <state key="normal" title="Button">
+                    <state key="normal" image="ic_locationArrow">
                         <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="testClick:" destination="-1" eventType="touchUpInside" id="kd3-Xl-RRI"/>
                     </connections>
@@ -45,14 +50,15 @@
                 <constraint firstItem="6lQ-Wp-r0e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9RZ-2Q-sCB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6lQ-Wp-r0e" secondAttribute="trailing" id="Piw-k2-no9"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="6lQ-Wp-r0e" secondAttribute="bottom" id="ZW6-ee-CWo"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1mV-xe-csb" secondAttribute="bottom" constant="50" id="eHX-rt-8fv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1mV-xe-csb" secondAttribute="bottom" constant="15" id="eHX-rt-8fv"/>
                 <constraint firstItem="6lQ-Wp-r0e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hq4-EQ-bx1"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1mV-xe-csb" secondAttribute="trailing" constant="50" id="qjt-X7-R9l"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1mV-xe-csb" secondAttribute="trailing" constant="10" id="mJj-p6-hpb"/>
             </constraints>
             <point key="canvasLocation" x="139" y="154"/>
         </view>
     </objects>
     <resources>
+        <image name="ic_locationArrow" width="16" height="16"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -23,6 +23,7 @@
 		D42F75BB26721A8F00AFAB1B /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F75B926721A8F00AFAB1B /* MapVC.swift */; };
 		D42F75BC26721A8F00AFAB1B /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42F75BA26721A8F00AFAB1B /* MapVC.xib */; };
 		D45511352678A90F00CE0C8F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45511342678A90F00CE0C8F /* UIViewControllerExtension.swift */; };
+		D45511392679B24000CE0C8F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45511382679B24000CE0C8F /* UIViewExtension.swift */; };
 		E972064F253B00203486ADBB /* Pods_Geofence_GeofenceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323A6C2307E743298A7A56BE /* Pods_Geofence_GeofenceUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		D42F75B926721A8F00AFAB1B /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		D42F75BA26721A8F00AFAB1B /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
 		D45511342678A90F00CE0C8F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		D45511382679B24000CE0C8F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E974B6E5DE44CDF6B646560B /* Pods_GeofenceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeofenceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				D45511342678A90F00CE0C8F /* UIViewControllerExtension.swift */,
+				D45511382679B24000CE0C8F /* UIViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				D42F75BB26721A8F00AFAB1B /* MapVC.swift in Sources */,
 				D42F75772671CBC000AFAB1B /* BaseViewController.swift in Sources */,
 				D45511352678A90F00CE0C8F /* UIViewControllerExtension.swift in Sources */,
+				D45511392679B24000CE0C8F /* UIViewExtension.swift in Sources */,
 				D42F75732671CBC000AFAB1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
